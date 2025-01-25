@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Navbar from '../components/Navbar';
 
 const Container = styled.div`
   display: flex;
@@ -37,11 +38,14 @@ const Button = styled.button`
 
 const HomePage = () => {
   return (
-    <Container>
-      <Title>HabitFlow</Title>
-      <Subtitle>Manage your habits effectivelye</Subtitle>
-      <Button>Start</Button>
-    </Container>
+    <>
+      <Navbar />
+      <Container>
+        <Title>HabitFlow</Title>
+        <Subtitle>Manage your habits effective</Subtitle>
+        <Button>Start</Button>
+      </Container>
+    </>
   );
 };
 
