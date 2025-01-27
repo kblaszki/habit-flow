@@ -3,19 +3,20 @@ import styled from 'styled-components';
 const Nav = styled.nav`
   width: 100%;
   background-color: #4CAF50;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
 const Logo = styled.div`
+  padding: 10px 20px;
   font-size: 1.5em;
   color: white;
   font-weight: bold;
 `;
 
 const NavLinks = styled.div`
+  padding: 10px 20px;
   display: flex;
   gap: 15px;
 `;
